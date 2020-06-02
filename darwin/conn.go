@@ -5,7 +5,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/go-ble/ble"
+	"github.com/sausheong/ble"
 	"github.com/raff/goble/xpc"
 )
 

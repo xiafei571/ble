@@ -3,9 +3,9 @@ package hci
 import (
 	"net"
 
-	"github.com/go-ble/ble"
-	"github.com/go-ble/ble/linux/adv"
-	"github.com/go-ble/ble/linux/hci/evt"
+	"github.com/sausheong/ble"
+	"github.com/sausheong/ble/linux/adv"
+	"github.com/sausheong/ble/linux/hci/evt"
 )
 
 // RandomAddress is a Random Device Address.
@@ -41,6 +41,15 @@ type Advertisement struct {
 func (a *Advertisement) setScanResponse(sr *Advertisement) {
 	a.sr = sr
 	a.p = nil // clear the cached.
+}
+
+// LEAdvertisingReportRaw returns the raw bytes for the LE Advertising Report
+func (a *Advertisement) LEAdvertisingReportRaw() []byte {
+	return a.e
+}
+
+func (a *Advertisement) ScanResponseRaw() []byte {
+	return a.ScanResponse()
 }
 
 // packets returns the combined advertising packet and scan response (if presents)

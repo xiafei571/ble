@@ -17,6 +17,8 @@ type Advertisement interface {
 	Connectable() bool
 	SolicitedService() []UUID
 
+	LEAdvertisingReportRaw() []byte
+	ScanResponseRaw() []byte
 	RSSI() int
 	Addr() Addr
 }
