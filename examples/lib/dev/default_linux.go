@@ -1,8 +1,8 @@
 package dev
 
 import (
-	"github.com/sausheong/ble"
-	"github.com/sausheong/ble/linux"
+	"github.com/xiafei571/ble"
+	"github.com/xiafei571/ble/linux"
 )
 
 // DefaultDevice ...

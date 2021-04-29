@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/sausheong/ble"
-	"github.com/sausheong/ble/linux"
-	"github.com/sausheong/ble/linux/hci/cmd"
+	"github.com/xiafei571/ble"
+	"github.com/xiafei571/ble/linux"
+	"github.com/xiafei571/ble/linux/hci/cmd"
 	"github.com/pkg/errors"
 )
 

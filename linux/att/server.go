@@ -7,7 +7,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/sausheong/ble"
+	"github.com/xiafei571/ble"
 )
 
 type conn struct {

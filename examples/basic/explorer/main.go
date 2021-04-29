@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sausheong/ble"
-	"github.com/sausheong/ble/examples/lib/dev"
+	"github.com/xiafei571/ble"
+	"github.com/xiafei571/ble/examples/lib/dev"
 	"github.com/pkg/errors"
 )
 

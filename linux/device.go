@@ -5,10 +5,10 @@ import (
 	"io"
 	"log"
 
-	"github.com/sausheong/ble"
-	"github.com/sausheong/ble/linux/att"
-	"github.com/sausheong/ble/linux/gatt"
-	"github.com/sausheong/ble/linux/hci"
+	"github.com/xiafei571/ble"
+	"github.com/xiafei571/ble/linux/att"
+	"github.com/xiafei571/ble/linux/gatt"
+	"github.com/xiafei571/ble/linux/hci"
 	"github.com/pkg/errors"
 )
 

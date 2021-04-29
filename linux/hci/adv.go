@@ -3,9 +3,9 @@ package hci
 import (
 	"net"
 
-	"github.com/sausheong/ble"
-	"github.com/sausheong/ble/linux/adv"
-	"github.com/sausheong/ble/linux/hci/evt"
+	"github.com/xiafei571/ble"
+	"github.com/xiafei571/ble/linux/adv"
+	"github.com/xiafei571/ble/linux/hci/evt"
 )
 
 // RandomAddress is a Random Device Address.

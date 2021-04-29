@@ -1,7 +1,7 @@
 package dev
 
 import (
-	"github.com/sausheong/ble"
+	"github.com/xiafei571/ble"
 )
 
 // NewDevice ...

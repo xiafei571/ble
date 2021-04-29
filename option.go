@@ -1,10 +1,10 @@
 package ble
 
 import (
-	"github.com/sausheong/ble/linux/hci/evt"
+	"github.com/xiafei571/ble/linux/hci/evt"
 	"time"
 
-	"github.com/sausheong/ble/linux/hci/cmd"
+	"github.com/xiafei571/ble/linux/hci/cmd"
 )
 
 // DeviceOption is an interface which the device should implement to allow using configuration options

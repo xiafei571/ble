@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/sausheong/ble"
-	"github.com/sausheong/ble/linux/adv"
-	"github.com/sausheong/ble/linux/gatt"
+	"github.com/xiafei571/ble"
+	"github.com/xiafei571/ble/linux/adv"
+	"github.com/xiafei571/ble/linux/gatt"
 	"github.com/pkg/errors"
 )
 
